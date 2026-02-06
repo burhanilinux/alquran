@@ -9,6 +9,7 @@
 build
 docs/*
 dist/windows/*
+!dist/windows/README.md
 CMakeLists.txt.*
 compile_commands.json
 !template.ts
