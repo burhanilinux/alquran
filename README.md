@@ -191,6 +191,9 @@ cmake.exe -DCMAKE_PREFIX_PATH="C:\Qt\6.x.x\msvc_2019" -DCMAKE_BUILD_TYPE=Release
 cmake.exe --build . --config Release
 ```
 
+To generate a Windows **online installer** with Qt Installer Framework, see
+[`dist/windows/README.md`](dist/windows/README.md).
+
 #### Linux
 
 2. Install dependencies (through the Qt [online installer](https://www.qt.io/download-qt-installer) or using your distro's package manager)
